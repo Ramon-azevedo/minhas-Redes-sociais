@@ -26,10 +26,10 @@ main {
 
 #telefone >iframe {
     position: absolute;
-    top: 50%;
+    top: 50.3%;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 500px;
+    height: 467px;
     width: 266px;
 }
 
@@ -37,6 +37,7 @@ main {
     width: 50px;
     margin-bottom: 20px;
     border-radius: 50%;
+    box-sizing: border-box;
 }
 
 #redes a {
@@ -46,4 +47,12 @@ main {
 #redes {
     text-align: right;
     padding: 20px;
+}
+
+#redes img:hover {
+    border: 2px solid white;
+}
+
+#redes :active {
+    transform: scale(95%);
 }
